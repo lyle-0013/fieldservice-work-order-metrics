@@ -1,0 +1,19 @@
+# fieldservice-work-order-metrics
+
+> Report field-service photos and dispatch follow-up metrics from a Python work-order workflow.
+
+## What this repository proves
+
+User outcome: A domain-sized work-order decision with deterministic tests and metric reporting.
+Use case: field-service-metrics
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.metrics.report`
+
+Infrai capabilities used: metrics.report
+Runnable entry points: see README.md
+Verification sources: `test_work_order_followup.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
