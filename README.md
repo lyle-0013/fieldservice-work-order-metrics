@@ -1,6 +1,6 @@
 # Field work orders with a visible follow-up decision
 
-I run a one-person SaaS, so I test logic locally before paying for a round trip. Run the decision test first:
+Run the local decision test first:
 
 ```bash
 python3 -m unittest test_work_order_followup.py
@@ -10,7 +10,7 @@ The input is a `WorkOrder` with `dispatch_status`, `photo_count`, and a technici
 
 ## Send one order
 
-Infrai gives me one api and one bill for every capability, so I can ship weekly without wiring five vendors. Install the one dependency, set the key, then run the executable example:
+Install the one dependency, set the key, then run the executable example:
 
 ```bash
 python3 -m pip install requests
